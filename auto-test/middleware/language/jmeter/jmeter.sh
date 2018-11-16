@@ -45,7 +45,7 @@ java -version
 print_info $? java-version
 
 systemctl restart nginx
-print_info $? restart-web-server
+#print_info $? restart-web-server
 
 $jm -v
 print_info $? jmeter-deploy
